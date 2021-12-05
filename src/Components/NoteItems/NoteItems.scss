@@ -1,0 +1,33 @@
+@import "src/styles/collectiveStyle";
+
+.noteWrapper{
+  width: 60%;
+  height: 70px;
+  margin-top: 10px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+
+
+  .note_content{
+    height: 20px;
+    width: auto;
+    margin-left: 30px;
+    background-color: lightgrey;
+
+    span{
+      font-size: 16px;
+
+    }
+    .tags__content{
+
+      span {
+        @extend %tags
+      }
+    }
+  }
+  .note_btns{
+    margin-left: 20px;
+  }
+
+}

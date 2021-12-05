@@ -1,0 +1,16 @@
+
+.wrapperNoteList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    text-align: center
+  }
+
+
+  .note {
+    display: flex;
+    justify-content: center;
+  }
+
+}

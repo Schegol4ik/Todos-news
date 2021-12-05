@@ -1,0 +1,16 @@
+.myBtn{
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: orange;
+
+  &:hover{
+    font-size: 14.5px;
+  }
+  &:active{
+    font-size: 15px;
+  }
+}

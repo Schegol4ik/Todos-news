@@ -1,0 +1,49 @@
+.wrapperAboutNote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    width: 50%;
+  }
+
+  .about__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    .span__content{
+      cursor: pointer;
+    }
+    .edit__content{
+      display: flex;
+      flex-direction: column;
+
+      input{
+        width: 100%;
+
+      }
+      button{
+       width: 100px
+      }
+    }
+  }
+
+  .about__btn {
+    display: flex;
+    margin-left: 10px;
+    button {
+      margin-left: 10px;
+    }
+
+  }
+
+  .highLight_tags{
+    background-color: transparent;
+    color: royalblue;
+  }
+  .tags{
+    color: royalblue;
+  }
+}
